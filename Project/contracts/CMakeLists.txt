@@ -4,3 +4,7 @@ set(STANDARD_INCLUDE_FOLDERS ${CMAKE_SOURCE_DIR}/contracts ${CMAKE_SOURCE_DIR}/e
 add_subdirectory(eosiolib)
 add_subdirectory(musl)
 add_subdirectory(libc++)
+
+
+# new contract directory
+add_subdirectory({contract_folder})

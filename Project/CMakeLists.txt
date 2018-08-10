@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
-project( Project )
+# Set project name
+project( myproject )
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/libraries/fc/CMakeModules")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules")
